@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <link rel="stylesheet" href="App.css">
+
+  <head>
+      <title>React App - Task Submission Portal</title>
+  </head>
+
+
+  <body>
+      <div id="root"></div>
+      <body>
+        <div class="container">
+            <form action="action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="name">Student Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="name" name="name" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="SID">Student ID</label>
+                </div>
+                <div class="col-75">
+                  <input type="number" id="SID" name="StudentID" placeholder="Your ID..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="Faculty">Faculty</label>
+                </div>
+                <div class="col-75">
+                  <select id="Faculty" name="Faculty">
+                    <option value="Faculty1">Faculty - 1</option>
+                    <option value="Faculty2">Faculty - 2</option>
+                    <option value="Faculty3">Faculty - 3</option>
+                  </select>
+                </div>
+              </div>
+              
+              <div class="Subject">
+                <div class="col-25">
+                  <label for="Subject">Subject</label>
+                </div>
+                <div class="col-75">
+                  <select id="Subject" name="Subject">
+                    <option value="Subject1">Subject - 1</option>
+                    <option value="Subject2">Subject - 2</option>
+                    <option value="Subject3">Subject - 3</option>
+                    <option value="Subject4">Subject - 4</option>
+                    <option value="Subject5">Subject - 5</option>
+                  </select>
+                </div>
+              </div>
+              
+                <div>
+                    <div class="col-25"></div>
+                    <label for="myfile"> attach task</label>
+                    <input type="file" id="myfile" name="myfile">
+    
+                    <!-- gg-attachment -->
+                    
+                </div>
+              
+    
+              <div class="row">
+                <div class="col-25">
+                  <label for="Notes">Notes</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="Notes" name="Notes" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+    </body>
+ 
+
+</html>
